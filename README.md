@@ -1,181 +1,194 @@
 ## **Prueba Tecnica Devco Booking**
 
-## Introduction 🚀
+## Introducción 🚀
 
-Founded in 1996 in Amsterdam, Booking.com has grown from a small Dutch start-up to one of the world’s leading digital travel companies. Part of Booking Holdings Inc.
-(NASDAQ: BKNG), Booking.com’s mission is to make it easier for everyone to experience the world.
+Fundada en 1996 en Ámsterdam, Booking.com ha pasado de ser una pequeña empresa holandesa a convertirse en una de las principales compañías digitales de viajes del mundo. Parte de Booking Holdings Inc.
+(NASDAQ: BKNG), la misión de Booking.com es facilitar a todos la experiencia de viajar por el mundo.
 
-The tests for this application are run on the following website: Booking.com (https://www.booking.com/).
+Las pruebas de esta aplicación se realizan en el siguiente sitio web: Booking.com (https://www.booking.com/).
 
-## Pre requirements 📋
+## Pre requisitos 📋
 
--Java version 1.8, update 191 or higher and JDK (environment variables configured).
--Eclipse IDE or IntelliJ IDEA (version 2019 or higher).
--Gradle version 5.5.1 or higher (environment variables configured).
--Cucumber for Java Plugin (updated version).
--Gherkin Plugin (updated version).
--ChromeDriver version 99.0.4844.35 for local runs of automations.
+-Versión de Java 1.8 o mayor y 
+-Java versión 1.8, actualización 191 o superior y JDK (variables de entorno configuradas).
+-Eclipse IDE o IntelliJ IDEA (versión 2019 o mayor).
+-Versión de Gradle 5.5.1 o mayor (variables de entorno configuradas).
+-Cucumber para Java Plugin (Versión actualizada).
+-Gherkin Plugin (Versión actualizada).
+-Versión de ChromeDriver 99.0.4844.35 para correr local las automatizaciones.
 
 ## Web browser 🌐
 
-Automation currently runs in the following browser:
+Actualmente la versión en la que se ejecuta el proyecto se encuentra:
 Versión 98.0.4758.102 (Build oficial) (64 bits)
 
-## Installation ⚙️
+## Instalación ⚙️
 
--To clone this repository locally, the following command must be run:
+-Para clonar el repositorio localmente, debe correr el siguiente comando : git clone 
 ```https://github.com/sara236824/PruebaDevco.git```
--Import the project from Eclipse or IntelliJ IDE under the structure of an existing Gradle project.
--Configure JRE System Library with JavaSE-1.8.
--Configure the encoding to UTF-8 to the project once it is imported.
+-Importar el proyecto en Eclipse o Intellij bajo la estructura existente para un proyecto de Gradle.
+-Configurar JRE System Library con JavaSE-1.8.
+-Configurar la codificación a UTF-8 al proyecto una vez importado.
 
-## Compile the project and generate Wrapper 🔧
--To build the project you must run the command: 
+## Compilar el proyecto y generar el Wrapper 🔧
+-Para compilar el proyecto debe correr el comando: 
 ```gradle clean build -x test```.
 
-## Command for execution ▶️
-- The project can be run from the console, being in the project folder with the following command:
+## Comando para la ejecución ▶️
+- El proyecto puede correrse desde la consola, en la ruta del proyecto abrir un cmd y correr el comando:
 ```gradle clean test --tests=* aggregate --info```.
-- The Serenity report will be generated in the folder ``/target/site/serenity/`` located in the root folder of the project.
+- El reporte de serenity se genera en esta ruta: ``/target/site/serenity/`` situado en la carpeta raíz del proyecto.
 
 ## Building 🛠
 
-Automation is developed with:
--BDD (Behavior-Driven Development) - Development strategy
--Screenplay pattern - Design pattern that applies SOLID principles
--Gradle - Project and Dependency manager
--Selenium Web Driver - Tool to automate actions in web browsers
--Cucumber - Framework to automate BDD tests
--Serenity BDD - Framework, Open source library for report generation
--Gherkin - Business-readable domain specific language (DSL)
+La automatización fue construida con:
+-BDD (Behavior-Driven Development)
+-Patron Screemplay - Aplicando los principios solid
+-Gradle - Proyectos y dependencias 
+-Selenium Web Driver - Herramienta para automatizar acciones en los navegadores web
+-Cucumber - Framework para realizar las automatizaciones en el patron BDD
+-Serenity BDD - Framework, Open source library para generacion de reportes
+-Gherkin
 
 ## Programming convention 🎨
 
 The following writing styles are used in automations:
 
-The following writing styles are used in automations:
-- Variables and functions: Lower Camel Case. Example: `nameExample`.
-- Class names: PascalCase or Upper Camel Case. Example: `nameExample`.
-- Feature names: Snake Case. Example: `name_example`.
+Los siguientes estilos de escritura se utilizan en las automatizaciones:
+-Para las variables y funciones: Lower Camel Case. Ejemplo: `nombramientoDeEjemplo`.
+- Nombramiento de las clases: PascalCase or Upper Camel Case. Ejemplo: `nameExample`.
+- Nombramiento de features: Ejemplo: `ejemplo_de_nombramiento`.
 
-## Versioning 🔀
-Git is used for version control
+## Versionamiento 🔀
 
-## "Documentos de Pruebas" folder 📑
+Git es usado para el control de versiones
+
+## "Documentos de Pruebas" carpeta 📑
 ---
-It is the folder that contains an evidence file, about manual executions.
+Es la carpeta que contiene un archivo de pruebas, sobre ejecuciones manuales.
 
-## Booking folder 🎬
+Esta carpeta contiene 3 archivos 
+  EjecuciondePruebas.pdf -- Es un pantallazo de un paso a paso de una prueba manual
+  EvidenciaReporte.pdf -- Es un pdf que contiene el reporte de serenity de la ejecucion de las pruebas manuales
+  Evidencias.html -- Contiene el mismo reporte de serenity de la ejecucion de las pruebas manuales en formato diferente.
+
+## Booking carpeta 🎬
 --- 
-It is the folder that contains the automated testing project
+Es la carpeta que contiene el proyecto de pruebas automatizadas
 
-## Booking Project structure 🚧
+## Estructura del proyecto de Booking🚧
 
-The complete structure of the automation project is as follows:
+EL proyecto sigue la siguiente estructura:
 
 src/main/java/co/com/devco/booking/certificacion
 
 + exceptions
-    Classes that catch exceptions and throw custom messages when automation fails due to it is not found what was expected.
+    Clases que capturan excepciones y lanzan mensajes personalizados cuando la automatización falla debido a que no se encuentra lo que se esperaba.
 
 + integrations
-    Classes that enable connection to services.
+    Clases que permiten la conexión con los servicios.
 
 + interactions
-    Classes that perform low-level actions, such as select a text field, search a case, among others.
+    Clases que realizan acciones de bajo nivel, como seleccionar un campo de texto, buscar un caso, entre otras.
 
 + models
-    Classes with which the data models are built using the builder pattern.
+    Clases con las que se construyen los modelos de datos utilizando el patrón constructor.
 
 + questions
-    Classes with which values are obtained from the application to be verified (asserts).
+    Clases con las que se obtienen los valores de la aplicación a verificar (asserts).
 
 + tasks
-    Classes that perform high-level actions, such as login in the application, enter data into a form, etc.
+    Clases que realizan acciones de alto nivel, como iniciar sesión en la aplicación, introducir datos en un formulario, etc.
 
 + userinterfaces
-    Classes where the elements of the user interface are mapped throw Xpaths.
+    Clases en las que los elementos de la interfaz de usuario se mapean lanzando Xpaths.
 
 + utils
-    Classes that contain common functionalities, such as files handling (Excel or XML), or string handling.
+    Clases que contienen funcionalidades comunes, como el manejo de archivos (Excel o XML), o el manejo de cadenas.
 ```
 
 * ```src/test/java/co/com/devco/booking/certificacion/```
 ```
 + runners
-    Classes to execute the automations with the scenarios indicated in the equivalents Features.
+    Clases para ejecutar las automatizaciones con los escenarios indicados en los features.
 
 + stepdefinitions
-    Classes that allow the translation of the Gherkin language used in the Features into machine language, thus they make possible the execution of automation.
-    There is a general Step Definitions class that contains the configuration and steps that are repeated in the other Step Definitions, therefore the General inherits to the others.
+    Clases que permiten la traducción del lenguaje Gherkin utilizado en las Funciones al lenguaje de máquina, por lo que hacen posible la ejecución de la automatización.
+    Existe una clase general de Definiciones de Pasos que contiene la configuración y los pasos que se repiten en las demás Definiciones de Pasos, por lo que la General hereda a las demás.
+
  ```
 
 * ```src/test/resources/```
 ```
 
 + data_driven
-    Files to interact with the application through automation.
+   Archivos para interactuar con la aplicación a través de la automatización.
 
 + driver
-    Chrome drivers used to run automation.
+    Chrome drivers usado para correr la automatizacion.
 
 + features
-    The project features are found here.
+    Los features del proyecto se encuentran aquí.
 ```
 
-## BookingManual Project structure 🚧
+## Estructura del projecto BookingManual  🚧
 
-The complete structure of the manual project is as follows:
+La estructura completa del proyecto de manual es la siguiente:
 
 * ```src/test/java/co/com/devco/booking/certificacion```
 ```
 + runners
-    Classes to execute the manual tests with the scenarios indicated in the equivalents Features.
+    Clases para ejecutar las pruebas manuales con los escenarios indicados en los features.
 
 + stepdefinitions
-    Class that allow the translation of the Gherkin language used in the Features into machine language.
-    There is a general Step Definitions class called ManualTestDefinitions that contains the configuration to get the evidence of manual scenarios.
-src/test/resources/
+    Clase que permite la traducción del lenguaje Gherkin utilizado en las Características al lenguaje de máquina.
+    Existe una clase general de Definiciones de Paso llamada ManualTestDefinitions que contiene la configuración para obtener las pruebas de los escenarios manuales.
+
+* ```src/test/resources/```
+
 + features
-    The project features are found here.
+    Los Features del proyecto esta aquí.
 
-## Running the manual tests ⏭
+## Correr Pruebas manuales ⏭
 
-- When running the manual tests, several pop-up windows will appear, one for each step of the test, where it must be indicated whether the step was successful or failed.
-In case of failure, a new pop-up window will appear, indicating the reason why it failed.
+- Al ejecutar las pruebas manuales, aparecerán varias ventanas emergentes, una por cada paso de la prueba, donde se debe indicar si el paso fue exitoso o falló.
+En caso de fallo, aparecerá una nueva ventana emergente, indicando la razón por la que ha fallado.
 
-## Vocabulary 📚
+
+## Vocabulario 📚
 ---
 ### BDD
-BDD is used as an automation framework for the automation of test scenarios, the idea is to write the tests before writing the source code, but instead of unit tests, what is done is to write tests that verify that the behavior of the Application is correct from a business point of view. After writing the tests, the source code of the functionality that makes these tests pass is written.
+BDD se utiliza como un marco de automatización para la automatización de escenarios de prueba, la idea es escribir las pruebas antes de escribir el código fuente, pero en lugar de pruebas unitarias, lo que se hace es escribir pruebas que verifiquen que el comportamiento de la Aplicación es correcto desde el punto de vista del negocio. Después de escribir las pruebas, se escribe el código fuente de la funcionalidad que hace que estas pruebas pasen.
+
 
 ### Gherkin
-Gherkin is used as a language for the development of functionalities since it is a language understandable by humans and computers, with it the behavior of the page to be automated is defined. It is an easy to read, easy to understand and easy to write language. Using Gherkin allows you to create a live documentation while automating the tests, also doing it with a language that can be understood from the business point of view.
+Gherkin se utiliza como lenguaje para el desarrollo de funcionalidades ya que es un lenguaje comprensible por humanos y ordenadores, con él se define el comportamiento de la página a automatizar. Es un lenguaje fácil de leer, fácil de entender y fácil de escribir. El uso de Gherkin permite crear una documentación viva mientras se automatizan las pruebas, haciéndolo además con un lenguaje que puede ser entendido desde el punto de vista del negocio.
 
-To build BDD with Gherkin it is only necessary to know 5 words. With which the sentences that describe the functionalities are made:
+Para construir BDD con Gherkin sólo es necesario conocer 5 palabras. Con las que se hacen las sentencias que describen las funcionalidades:
 
-- **Feature:** Indicates the name of the functionality to be tested. It must be a clear and explicit title. In addition, a description in the form of a user story is included: “As [role] I want [feature] so that [benefits]”. According to this description, the test scenarios are constructed.
-- **Scenario:** Describe each scenario to be tested.
-- **Given:** Provides context for the scenario in which the test will be executed, such as the point where the test is carried out, or data prerequisites. It includes the steps necessary to put the system in the desired state to run the test.
-- **When:** Specifies the set of actions that launch the test. The user interaction that triggers the functionality to be tested.
-- **Then:** Specifies the expected result in the test. It is validated if the changes observed in the system are the desired ones.
+- **Feature:** Indica el nombre de la funcionalidad a probar. Debe ser un título claro y explícito. Además, se incluye una descripción en forma de historia de usuario: "Como [rol] quiero [funcionalidad] para que [beneficios]". De acuerdo con esta descripción, se construyen los escenarios de prueba.
+- **Scenario:** Describe cada escenario a probar.
+- **Given:** Proporciona el contexto del escenario en el que se ejecutará la prueba, como el punto en el que se realiza la prueba, o los requisitos previos de los datos. Incluye los pasos necesarios para poner el sistema en el estado deseado para ejecutar la prueba.
+- **When:** Especifica el conjunto de acciones que lanzan la prueba. La interacción del usuario que desencadena la funcionalidad a probar.
+- **Then:** Especifica el resultado esperado en la prueba. Se valida si los cambios observados en el sistema son los deseados.
 
-In addition to these five words, it can be used **Background** to group the same steps that are executed before each scenario in order to avoid code repetition.
-
+Además de estas cinco palabras, se puede utilizar **Background** para agrupar los mismos pasos que se ejecutan antes de cada escenario con el fin de evitar la repetición de código.
 
 ### Cucumber
 
-Cucumber is used as a tool to automate testing in BDD. Cucumber allows it to run functional descriptions in plain text like automated software tests. Fully compatible with the Gherkin language.
+Cucumber se utiliza como una herramienta para automatizar las pruebas en BDD. Cucumber permite ejecutar descripciones funcionales en texto plano como pruebas de software automatizadas. Es totalmente compatible con el lenguaje Gherkin.
 
  ### Compiler
-The project is created with Gradle, which is a project and dependency manager, it is the improved version of Maven, but it tries to take it one step further. For starters, it relies on Groovy and a DSL (Domain Specific Language) to work with a simple and clear language when constructing the build compared to Maven. On the other hand, it has great flexibility which allows to work using other languages and not just Java.
+
+El proyecto se crea con Gradle, que es un gestor de proyectos y dependencias, es la versión mejorada de Maven, pero intenta ir un paso más allá. Para empezar, se apoya en Groovy y en un DSL (Domain Specific Language) para trabajar con un lenguaje sencillo y claro a la hora de construir el build en comparación con Maven. Por otro lado, tiene una gran flexibilidad que permite trabajar con otros lenguajes y no sólo con Java.
 
 ### IntelliJ
-The IntelliJ IDE is used for automation development. IntelliJ is a development platform, designed to be extended indefinitely through plug-ins. It was conceived from its origins to become a platform for integrating development tools.
 
-It does not have a specific language in mind, but is a generic IDE, although it is very popular among the Java language developer community using the JDT plug-in that is included in the standard distribution of the IDE.
+El IDE IntelliJ se utiliza para el desarrollo de la automatización. IntelliJ es una plataforma de desarrollo, diseñada para ser ampliada indefinidamente mediante plug-ins. Fue concebido desde sus orígenes para convertirse en una plataforma de integración de herramientas de desarrollo.
 
-It provides tools for managing workspaces, writing, deploying, running, and debugging applications.
+No tiene un lenguaje específico en mente, sino que es un IDE genérico, aunque es muy popular entre la comunidad de desarrolladores del lenguaje Java que utilizan el plug-in JDT que se incluye en la distribución estándar del IDE.
+
+Proporciona herramientas para gestionar espacios de trabajo, escribir, desplegar, ejecutar y depurar aplicaciones.
 
 ## Author ✒
 
