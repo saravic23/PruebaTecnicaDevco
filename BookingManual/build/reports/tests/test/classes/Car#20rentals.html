@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Car rentals</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Car rentals</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Car rentals</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">55.129s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">33%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="rent a car by selecting the age of the driver"></a>
+<h3 class="failures">rent a car by selecting the age of the driver</h3>
+<span class="code">
+<pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at co.com.devco.booking.certificacion.utils.ManualTest.validate(ManualTest.java:24)
+	at co.com.devco.booking.certificacion.manualtest.stepdefinitions.ManualTestDefinitions.manualTestBooking(ManualTestDefinitions.java:22)
+	at ✽.the user is in the main page(src/test/resources/features/car_rentals.feature:38)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="rent a car without a pickup locqation"></a>
+<h3 class="failures">rent a car without a pickup locqation</h3>
+<span class="code">
+<pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at co.com.devco.booking.certificacion.utils.ManualTest.validate(ManualTest.java:24)
+	at co.com.devco.booking.certificacion.manualtest.stepdefinitions.ManualTestDefinitions.manualTestBooking(ManualTestDefinitions.java:22)
+	at ✽.he click in the search(src/test/resources/features/car_rentals.feature:28)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">rent a car  successful</td>
+<td class="success">45.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">rent a car by selecting the age of the driver</td>
+<td class="failures">3.180s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">rent a car without a pickup locqation</td>
+<td class="failures">6.940s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: rent a car  successful
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: rent a car without a pickup locqation
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: rent a car by selecting the age of the driver
+----------------------------------------------------------------------------?[0m
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 17/02/2022 07:55:10 AM</p>
+</div>
+</div>
+</body>
+</html>

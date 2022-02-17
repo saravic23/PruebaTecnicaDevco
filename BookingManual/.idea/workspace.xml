@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5701c4ed-89b3-48c3-ac8a-a1bab885c748" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/Booking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/PruebaDevco.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/co.com.devco.booking.certificacion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/exceptions/SearchAccommodationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/exceptions/SearchAttractionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/interactions/SelectDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/interactions/SelectOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/tasks/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/utils/ValidateDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/utils/constants/ErrorsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/utils/constants/GeneralConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/main/java/co/com/devco/booking/certificacion/utils/constants/ProductConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/test/java/co/com/devco/booking/certificacion/stepdefinitions/GeneralStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/test/java/co/com/devco/booking/certificacion/stepdefinitions/GetTaxiStepDefinitios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/src/test/resources/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/024e2a4ef62dac1ca458dcc82a6f84827f323182bb540aada2f37da0d6500066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/03f587694434620290c3b54ea82aca2a55dfaf7c5f0418496ec1ed73381ad7de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/05b0d2f8b98eda602dbbf6c5f2caf5a57e74260e6bce5abd0c0465dda6db261d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/09d2eb225803022f8811f871d42dd028a0dbef574a1d771a6736d6442145f198.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/0bcb780f1d94f2cc8bc53a96c8e1f27e6e76ba7bb7022a5fe8f2916be2c62cc3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/1019b0007393b4688fded641cb370f80959fa64eaabd85b49bdc4f8fd4418523.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/130e8966fc47882d23bb120e87ee42a07dd70d61e075cfdbb7496c30f801e4fd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/135d11f98351f375dd8df8b66a1bf8a0f1877bcf528f5caa24f48ddeaf2dc99f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/26c00e92a87a5654d4cdeec59dc2c06b15a48b57d8621817bf90dc78fd1fdd69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/29552e78fae22ee59ddd20ba6e6722fd3b2d30ef334b0924703299499aaada8a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/2a2de8e3ce0c6c7064e3bc881aeac81f3c89b62ff55eb36c66b68b18d92e4e11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/2df62e06f0692b6bd188c2cb3d591e6dcb98b1461142b548f77c5cf22a475623.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/31f880d6eee5c3dd06b1d54c62793c4df4f4dc4f1f5d921db0fe42ddd8ab486e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/361557cb63d74cab1a32aa05c885adafcacc78c085c7b4bfea0bc7a97e2ca371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/3ed81fd2d52b9ee56f8128fe9c06ea588510966e2a864ee8c30086f9b7f10b32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/3fba0577c05c9c9db2c72bdff8df987af6a4a44149742df3a3f1f4361e45aff9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/42ace3a10057fae7000d4adfc07c060c57a8e5ce42ffcde6ba9b39fde3c93f5c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/442a6693752e658ed9baad3e121d33290a937ae69c5817680ad3e50fe41ea871.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/45a7c70f2d9742ded80f52f52ea84b50aff9ee43642fe831077d3ba50e53c9a8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/4616c1f2308e1dc374eff43d27df695360a4ca39d437e529472f2f171b10ac83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/478692a200b6b6ac4ec64247f9483093c1bf5ece840784c6425f4048ffe225c5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/48abb404cf4dbc1c6cdb8588d17dd8f094e030a88a985bc5c4fdfcef419faa65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/4bba89613cb8c746f598d9bbeabae7cfea47d0535739a8947e3e613f3c49b7ae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/4d8e379c828f5aafe72c1b2f41d3dba99428def0eb08892ae4b9d6e7981759e6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/513b8b9c5e84a7c620475dfc5ede3aeceab76d9e9cd12f598913347e389c90fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/5961539c83a3223e15570a42da16aadbf6225afa12503519352ff53b69963118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/598519087789f5729899437e5198ba9dec7564551538c901db5adcb23b1e5084.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/5a974a1fde75cbdf1309da70606793d72339727fc60aaf127cf4c13be23c150c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/687dfc5851b71e25452f03229062276ce9366fd892382e166de52442c6c684d9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/68ff6746ca7d1a344df2eb1a8c14560c76ed01e21816adb39b98ee599dd87f08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/6f2ff080833ff4a35b17ea00f018a64a269770c4f33d0474ea069a6d09d22720.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/7362e3fa6612e523b3de04ecaa892fac8d8acc5ec0fe6ea7e659215f7fee4230.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/778367dde4317b286d2a18fe5e269469d782be9fe5c7a0b11c169189e3c71323.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/7b2044d6e94c445379a42b246951e25dcb9c6e80922ba2b204a7aa1be331a49c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/7bdfccec995cb31cd7217ba30cd212ba4eba7a92b84d367a93a9afd584c96ead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/7fc773fa369c78eb59f8f4ff43c84c1135a0d10110391d8eae24acd23da65711.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/83b217d46c2c7a52b29dd6a83d06bfddfc2a181c5d96eef4d5271dada0649536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/853e770f8153b9159caba89c12a0c6eca71bedc17a40f0e4c485c83f42679af7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/933f5535dcad7f1df0cc27cbd886755ff89fabc1bab17c9eb75a0355927399b0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/9bd5e8836e3c87c15f511f0f5ee851e25340e0cd553ae8a1aac9f67cdd102ec9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/9c10f3d646b9339d8dae4df8c4e83b6cdb48b3c757e3cbd81cf472d5ef20f9c4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/a28e3ae047f435ea9fa39acdbe3209687453b210276716ff8bc64fb23efea795.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/a2dd708b026c4464af9de38ef66d242b87fc662f214de3c47044f0e37d42056b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/aba0dc1dda255c8ede54924bb01363dbba55a1a671f90578c98eb3a5b77b15f4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/b111945ae513389ad33b8300cec5be5b4c3b33719eb17db40b7a52f99a005b83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/bb596e90da9c75dd94fe01de801f7db5299272ac2c7c16ba47523510547266e9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/c025ef6850419a111900546862b767f9445cd5e52cc33f7db9e1e7ef66651b97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/c0981ad582f1877414858f319bf3231ea4507652163f0e1b9711ab485bd6d8b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/c156284b1763756bdf0cf8d1dd26031f568865c45646ab9a798e789049600645.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/c1649d8c90a371cb1db10ece76d5672360ed0e70832315e512ce93604b618603.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/c658fbe33d4ef52308ad6068ce604edbd7e394c8c65c9f2091984381cdcc0aae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/c6f37a9cc77ccd539637dc191cf470115d16bd7f65d88d22395235d49d88b8c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/c724c46895a32153f429fd9331fc1f4341b2dc91f7e2811d14601ce633781bb6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/cf8cbed47cad6e5d168f7d172da0824a670e7a97dfdfd09733cc52793b5f802c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/d53a2a652a5aadd2894cdc76115731b93a0974c230c8a4fcf7f082fe7b97496c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/d8606cc6fe8e7ee20c582f61f445ca42f6057589dc7872db15c78854ab93dbc8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/d8d258f81c3a739dbbca5a5adef741223044f2255f04aba1bceecbda93f69e8e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/ddef47d39a50325481545525d8b8b0e485eea4053bd7c473c25f383a19c3c879.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/dff3beabdd0e3c175a8f852d5a3143b9e488c53abc5203bc04f63f44491f51f0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/e18b7bcb55dd8a55aedb93aad7b0a04afcfe07b87c6f6da3a1ccb42a9da0000d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/e5411161350ea0f76c12b38f7e035060b04a416241d5d8421c0c2ec1e5219e84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/e59792d52c62c3d049f97104a506bd2d7e5d18fb64d3e328907bbcfc0625f234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/e5ce2196c0f37b1062b9dec8357a88aead9095220f215ec148f4d240c81ec41a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/e6344339f8c8b324b082b46075254e0dd59d1e00840690f4cdd0545b4a0d7d41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/e8261eadb127ac36944a68ea6897c9465773833a81c15c5cd7f2cc1aeed079ce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/e877b5c9ec77adba9e89624fd251391fc1abf9fb19d9f8376b633bca24143f72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/ec1f1e0a873233bf3bb14ba4d2da89efa5d4074daa33a015a0060a6fa81f8cc7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/f4807baebe003f4097b33d49ebdb8ad69ebe6b4401e98b3f89352ce811583f21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource1040726743739181368.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource1373133846830579799.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource2186226570786796247.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource2258027819861646184.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource2779856139352418414.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource2907911307502667216.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource3086235270562655016.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource3151857483300538186.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource3580467428362911144.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource48319402971954511.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource5654068455040723829.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource6585616573537494887.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource7647062718318938333.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Booking/target/site/serenity/pagesource8102717305994605297.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/BookingManual.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BookingManual" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BookingManual" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1x8hMfatqvA5knGfL6RiLDPs4GF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Gradle.CarRentals">
+    <configuration name="CarRentals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.devco.booking.certificacion.manualtest.runners.CarRentals&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Notifications" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.devco.booking.certificacion.manualtest.runners.Notifications&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Registration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.devco.booking.certificacion.manualtest.runners.Registration&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SubscribeForOffers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.devco.booking.certificacion.manualtest.runners.SubscribeForOffers&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TermsAndConditions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.devco.booking.certificacion.manualtest.runners.TermsAndConditions&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CarRentals" />
+        <item itemvalue="Gradle.TermsAndConditions" />
+        <item itemvalue="Gradle.SubscribeForOffers" />
+        <item itemvalue="Gradle.Registration" />
+        <item itemvalue="Gradle.Notifications" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5701c4ed-89b3-48c3-ac8a-a1bab885c748" name="Changes" comment="" />
+      <created>1629742576437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629742576437</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
