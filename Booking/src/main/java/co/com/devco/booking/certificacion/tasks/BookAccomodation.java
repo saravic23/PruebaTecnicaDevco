@@ -3,15 +3,12 @@ package co.com.devco.booking.certificacion.tasks;
 import co.com.devco.booking.certificacion.interactions.ChangeWindow;
 import co.com.devco.booking.certificacion.models.BookAccomodationData;
 
-import co.com.devco.booking.certificacion.userinterfaces.BookPage;
-import co.com.devco.booking.certificacion.userinterfaces.SearchPage;
+
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
-import org.openqa.selenium.Keys;
 
 import static co.com.devco.booking.certificacion.userinterfaces.BookPage.*;
-import static co.com.devco.booking.certificacion.userinterfaces.MainPage.*;
 import static co.com.devco.booking.certificacion.userinterfaces.SearchPage.*;
 
 public class BookAccomodation implements Task {

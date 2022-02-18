@@ -1,4 +1,4 @@
-#author: Sara Victoria Padilla
+#author: SaraVictoriaPadilla
 
 Feature: Subscribe to see secret offers
   As a user, I need to Subscribe for see secret offers

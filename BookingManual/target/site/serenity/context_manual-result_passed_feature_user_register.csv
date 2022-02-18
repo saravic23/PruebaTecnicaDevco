@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User register","register succesful","SUCCESS","2021-08-23T15:12:49.162-05:00[America/Bogota]","0.0","3.29"
-"User register","register when the email its wrong","SUCCESS","2021-08-23T15:12:52.448-05:00[America/Bogota]","0.0","2.11"
-"User register","register when password is different","SUCCESS","2021-08-23T15:12:54.574-05:00[America/Bogota]","0.0","2.14"
+"User register","register succesful","SUCCESS","2022-02-17T10:50:33.699-05:00[America/Bogota]","0.0","4.49"
+"User register","register when the email its wrong","SUCCESS","2022-02-17T10:50:38.205-05:00[America/Bogota]","0.0","4.07"
+"User register","register when password is different","SUCCESS","2022-02-17T10:50:42.279-05:00[America/Bogota]","0.0","3.63"

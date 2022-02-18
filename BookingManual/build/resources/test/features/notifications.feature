@@ -1,4 +1,4 @@
-#author: Sara Victoria Padilla
+#author: SaraVictoriaPadilla
 
 Feature: User notifications
   As a user, I need to register in booking.com

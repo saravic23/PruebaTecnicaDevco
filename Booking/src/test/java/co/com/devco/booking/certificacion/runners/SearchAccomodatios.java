@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/search_accommodation.feature",
-        glue = "co.com.devco.booking.certificacion.stepdefinitions.search",
+        glue = "co.com.devco.booking.certificacion.stepdefinitions",
         snippets = SnippetType.CAMELCASE)
 public class SearchAccomodatios {
 }

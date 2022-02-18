@@ -6,6 +6,7 @@ public class ProductConstants {
     public static final String LOGIN ="Inicia sesión";
     public static final String TAXY ="Taxis aeropuerto";
     public static final String ATTRACTIONS ="Atracciones turísticas";
+    public static final String CAR ="Alquiler de coches";
 
     private ProductConstants() {
     }

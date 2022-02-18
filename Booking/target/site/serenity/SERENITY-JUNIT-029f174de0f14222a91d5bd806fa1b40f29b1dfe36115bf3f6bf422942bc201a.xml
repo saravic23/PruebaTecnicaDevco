@@ -24,6 +24,6 @@ Session ID: 78ec7381f3534a7662c6e0c2fbc4775f
     Session ID: 78ec7381f3534a7662c6e0c2fbc4775f
     *** Element info: {Using=xpath, value=//span[contains(string(), 'Bartolo
     Martinez')][@id='profile-menu-trigger--title']}&#13;
-    co.com.devco.booking.certificacion.stepdefinitions.login.LoginStepDefinitions.deberaVerSuNombreEnElLogin(LoginStepDefinitions.java:49)&#13;
+    co.com.devco.booking.certificacion.stepdefinitions.LoginStepDefinitions.deberaVerSuNombreEnElLogin(LoginStepDefinitions.java:49)&#13;
     ✽.Debera ver su nombre en el login(src/test/resources/features/login.feature:8)&#13;
 </system-err></testcase></testsuite>

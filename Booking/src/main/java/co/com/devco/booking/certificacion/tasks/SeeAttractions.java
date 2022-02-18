@@ -25,8 +25,7 @@ public class SeeAttractions implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(DESTINY_FOR_ATTRACTION),
-                SendKeys.of(attractionData.getDestiny()).into(DESTINY_FOR_ATTRACTION)
-                ,
+                SendKeys.of(attractionData.getDestiny()).into(DESTINY_FOR_ATTRACTION),
                 Click.on(BUTTON_SEARCH_ATTRACTION),
                 Click.on(TOUR));
 

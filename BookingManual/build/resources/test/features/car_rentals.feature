@@ -1,4 +1,4 @@
-#author: Sara Victoria Padilla
+#author: SaraVictoriaPadilla
 
 Feature: Car rentals
   As a user, I need to rent a car
@@ -15,7 +15,7 @@ Feature: Car rentals
     Then You can see the different options to choose from
     Examples:
       | option      | pickup   | date          | return        | button |
-      | Car rentals | Medellin | Agust 24 2021 | Agust 31 2021 | search |
+      | Car rentals | Medellin | Agust 24 2022 | Agust 31 2022 | search |
 
 
   @manual-result:passed
@@ -29,7 +29,7 @@ Feature: Car rentals
     Then You can see the <message>
     Examples:
       | option      | date          | return        | button | message                 |
-      | Car rentals | Agust 24 2021 | Agust 31 2021 | search | Enter a pickup location |
+      | Car rentals | Agust 24 2022 | Agust 31 2022 | search | Enter a pickup location |
 
 
   @manual-result:passed
@@ -46,4 +46,4 @@ Feature: Car rentals
     Then You can see the different options to choose from
     Examples:
       | option      | date          | return        | button | driverEge |
-      | Car rentals | Agust 24 2021 | Agust 31 2021 | search | 25        |
+      | Car rentals | Agust 24 2022 | Agust 31 2022 | search | 25        |

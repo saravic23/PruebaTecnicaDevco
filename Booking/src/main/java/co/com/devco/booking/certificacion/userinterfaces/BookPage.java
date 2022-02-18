@@ -35,7 +35,6 @@ public class BookPage {
     public static final Target PHONE =
             Target.the("phone number").located(By.xpath("//input[@id='phone']"));
 
-
     public static final Target COMPLETE_RESERVE =
             Target.the("complete reserve").located(By.xpath("//button[@type='submit']/ancestor::div[@class='bui-group__item']"));
 }

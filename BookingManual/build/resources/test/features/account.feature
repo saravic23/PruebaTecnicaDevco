@@ -1,4 +1,4 @@
-#author: Sara Victoria Padilla
+#author: SaraVictoriaPadilla
 
 Feature: User Account
   As a user, I need to Manage  my account

@@ -1,4 +1,4 @@
-#author: Sara Padilla
+#author: SaraPadilla
 Feature: Search tourist attractions
   As a user, I need to know from which point to park a tourist attraction
 

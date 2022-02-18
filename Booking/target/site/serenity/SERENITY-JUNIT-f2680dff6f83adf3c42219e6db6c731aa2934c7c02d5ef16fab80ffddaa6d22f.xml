@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Search tourist attractions" skipped="0" tests="1" time="32.23" timestamp="2022-02-17 07:28:24"><testcase name="Find where the exit to the Disney attraction in Paris starts"><failure message="Starting points do not match - &#10;Expected: a string containing &quot;Disneyland Paris, Boulevard de Parc, , Marne-la-Vallee, 77700&quot;&#10;     but: was &quot;Disneyland Paris, Boulevard de Parc,, Marne-la-Vallee, 77700&quot;" type="java.lang.AssertionError">Starting points do not match - 
-Expected: a string containing "Disneyland Paris, Boulevard de Parc, , Marne-la-Vallee, 77700"
-     but: was "Disneyland Paris, Boulevard de Parc,, Marne-la-Vallee, 77700"</failure><system-err>Starting points do not match - 
-Expected: a string containing "Disneyland Paris, Boulevard de Parc, , Marne-la-Vallee, 77700"
-     but: was "Disneyland Paris, Boulevard de Parc,, Marne-la-Vallee, 77700"&#13;
-co.com.devco.booking.certificacion.stepdefinitions.AttractionsStepDefinitions.youShouldSeeTheStartingPlace(AttractionsStepDefinitions.java:37)&#13;
-✽.You should see the starting place(src/test/resources/features/attractions.feature:10)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Search tourist attractions" skipped="0" tests="1" time="23.63" timestamp="2022-02-17 05:17:59"><testcase name="Find where the exit to the Disney attraction in Paris starts"/></testsuite>

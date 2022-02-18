@@ -1,4 +1,4 @@
-#author: Sara Victoria Padilla
+#author: SaraVictoriaPadilla
 
 Feature: Change Language
   As a user, I need to change the language

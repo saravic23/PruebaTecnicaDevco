@@ -1,4 +1,4 @@
-#author: Sara Victoria Padilla
+#author: SaraVictoriaPadilla
 Feature: help center
   As a user, I need to contact with the help center
 

@@ -1,5 +1,6 @@
 package co.com.devco.booking.certificacion.stepdefinitions;
 
+import co.com.devco.booking.certificacion.interactions.ChangeLanguage;
 import co.com.devco.booking.certificacion.utils.constants.GeneralConstants;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Open;
@@ -10,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 public class GeneralStepDefinitions {
 
+
     @Managed(driver = GeneralConstants.CHROME)
     private WebDriver hisBrowser;
 
@@ -19,6 +21,8 @@ public class GeneralStepDefinitions {
         OnStage.theActorCalled(GeneralConstants.USER);
         OnStage.theActorInTheSpotlight().can(BrowseTheWeb.with(hisBrowser));
         OnStage.theActorInTheSpotlight().wasAbleTo(Open.url(GeneralConstants.URL));
+        //OnStage.theActorInTheSpotlight().wasAbleTo(ChangeLanguage.page());
+
     }
 
 }

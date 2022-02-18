@@ -1,4 +1,4 @@
-#author: Sara Victoria Padilla
+#author: SaraVictoriaPadilla
 
 Feature: Terms and conditions of the trip
   As a user, I need see the Terms and conditions of the trip

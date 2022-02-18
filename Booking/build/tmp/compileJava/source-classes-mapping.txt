@@ -1,58 +1,70 @@
-co/com/devco/booking/certificacion/userinterfaces/LoginPage.java
- co.com.devco.booking.certificacion.userinterfaces.LoginPage
-co/com/devco/booking/certificacion/tasks/SearchAccomodations.java
- co.com.devco.booking.certificacion.tasks.SearchAccomodations
+co/com/devco/booking/certificacion/models/LoginData.java
+ co.com.devco.booking.certificacion.models.LoginData
+co/com/devco/booking/certificacion/utils/constants/GeneralConstants.java
+ co.com.devco.booking.certificacion.utils.constants.GeneralConstants
+co/com/devco/booking/certificacion/models/AttractionData.java
+ co.com.devco.booking.certificacion.models.AttractionData
+co/com/devco/booking/certificacion/exceptions/RentACar.java
+ co.com.devco.booking.certificacion.exceptions.RentACar
 co/com/devco/booking/certificacion/interactions/ChangeWindow.java
  co.com.devco.booking.certificacion.interactions.ChangeWindow
 co/com/devco/booking/certificacion/models/AccomodationData.java
  co.com.devco.booking.certificacion.models.AccomodationData
-co/com/devco/booking/certificacion/interactions/SelectOption.java
- co.com.devco.booking.certificacion.interactions.SelectOption
-co/com/devco/booking/certificacion/utils/ValidateDate.java
- co.com.devco.booking.certificacion.utils.ValidateDate
-co/com/devco/booking/certificacion/userinterfaces/SearchPage.java
- co.com.devco.booking.certificacion.userinterfaces.SearchPage
-co/com/devco/booking/certificacion/utils/constants/ErrorsConstants.java
- co.com.devco.booking.certificacion.utils.constants.ErrorsConstants
-co/com/devco/booking/certificacion/tasks/BookAccomodation.java
- co.com.devco.booking.certificacion.tasks.BookAccomodation
+co/com/devco/booking/certificacion/exceptions/SearchAttractionException.java
+ co.com.devco.booking.certificacion.exceptions.SearchAttractionException
 co/com/devco/booking/certificacion/exceptions/SearchAccommodationException.java
  co.com.devco.booking.certificacion.exceptions.SearchAccommodationException
-co/com/devco/booking/certificacion/userinterfaces/AttractionsPage.java
- co.com.devco.booking.certificacion.userinterfaces.AttractionsPage
-co/com/devco/booking/certificacion/models/LoginData.java
- co.com.devco.booking.certificacion.models.LoginData
+co/com/devco/booking/certificacion/utils/constants/ProductConstants.java
+ co.com.devco.booking.certificacion.utils.constants.ProductConstants
+co/com/devco/booking/certificacion/utils/constants/ErrorsConstants.java
+ co.com.devco.booking.certificacion.utils.constants.ErrorsConstants
+co/com/devco/booking/certificacion/models/CarData.java
+ co.com.devco.booking.certificacion.models.CarData
+co/com/devco/booking/certificacion/models/BookAccomodationData.java
+ co.com.devco.booking.certificacion.models.BookAccomodationData
 co/com/devco/booking/certificacion/tasks/Search.java
  co.com.devco.booking.certificacion.tasks.Search
 co/com/devco/booking/certificacion/questions/ValidateBook.java
  co.com.devco.booking.certificacion.questions.ValidateBook
 co/com/devco/booking/certificacion/questions/UserLogin.java
  co.com.devco.booking.certificacion.questions.UserLogin
+co/com/devco/booking/certificacion/userinterfaces/CarRentalPage.java
+ co.com.devco.booking.certificacion.userinterfaces.CarRentalPage
 co/com/devco/booking/certificacion/userinterfaces/BookPage.java
  co.com.devco.booking.certificacion.userinterfaces.BookPage
-co/com/devco/booking/certificacion/interactions/SelectDate.java
- co.com.devco.booking.certificacion.interactions.SelectDate
-co/com/devco/booking/certificacion/userinterfaces/GetTaxiPage.java
- co.com.devco.booking.certificacion.userinterfaces.GetTaxiPage
-co/com/devco/booking/certificacion/utils/constants/GeneralConstants.java
- co.com.devco.booking.certificacion.utils.constants.GeneralConstants
-co/com/devco/booking/certificacion/models/AttractionData.java
- co.com.devco.booking.certificacion.models.AttractionData
+co/com/devco/booking/certificacion/userinterfaces/LoginPage.java
+ co.com.devco.booking.certificacion.userinterfaces.LoginPage
+co/com/devco/booking/certificacion/questions/ValidadeCar.java
+ co.com.devco.booking.certificacion.questions.ValidadeCar
+co/com/devco/booking/certificacion/tasks/SearchAccomodations.java
+ co.com.devco.booking.certificacion.tasks.SearchAccomodations
 co/com/devco/booking/certificacion/tasks/Login.java
  co.com.devco.booking.certificacion.tasks.Login
-co/com/devco/booking/certificacion/tasks/GetAirportTaxi.java
- co.com.devco.booking.certificacion.tasks.GetAirportTaxi
-co/com/devco/booking/certificacion/models/BookAccomodationData.java
- co.com.devco.booking.certificacion.models.BookAccomodationData
+co/com/devco/booking/certificacion/tasks/SeeAttractions.java
+ co.com.devco.booking.certificacion.tasks.SeeAttractions
 co/com/devco/booking/certificacion/questions/ValidadeStartingPoint.java
  co.com.devco.booking.certificacion.questions.ValidadeStartingPoint
 co/com/devco/booking/certificacion/questions/ValidateAccomodation.java
  co.com.devco.booking.certificacion.questions.ValidateAccomodation
-co/com/devco/booking/certificacion/exceptions/SearchAttractionException.java
- co.com.devco.booking.certificacion.exceptions.SearchAttractionException
+co/com/devco/booking/certificacion/interactions/SelectOption.java
+ co.com.devco.booking.certificacion.interactions.SelectOption
+co/com/devco/booking/certificacion/userinterfaces/SearchPage.java
+ co.com.devco.booking.certificacion.userinterfaces.SearchPage
+co/com/devco/booking/certificacion/interactions/ChangeLanguage.java
+ co.com.devco.booking.certificacion.interactions.ChangeLanguage
+co/com/devco/booking/certificacion/tasks/BookAccomodation.java
+ co.com.devco.booking.certificacion.tasks.BookAccomodation
+co/com/devco/booking/certificacion/tasks/GetCarRental.java
+ co.com.devco.booking.certificacion.tasks.GetCarRental
+co/com/devco/booking/certificacion/tasks/SearchCar.java
+ co.com.devco.booking.certificacion.tasks.SearchCar
 co/com/devco/booking/certificacion/userinterfaces/MainPage.java
  co.com.devco.booking.certificacion.userinterfaces.MainPage
-co/com/devco/booking/certificacion/utils/constants/ProductConstants.java
- co.com.devco.booking.certificacion.utils.constants.ProductConstants
-co/com/devco/booking/certificacion/tasks/SeeAttractions.java
- co.com.devco.booking.certificacion.tasks.SeeAttractions
+co/com/devco/booking/certificacion/userinterfaces/AttractionsPage.java
+ co.com.devco.booking.certificacion.userinterfaces.AttractionsPage
+co/com/devco/booking/certificacion/models/UploadData.java
+ co.com.devco.booking.certificacion.models.UploadData
+co/com/devco/booking/certificacion/userinterfaces/UploadPage.java
+ co.com.devco.booking.certificacion.userinterfaces.UploadPage
+co/com/devco/booking/certificacion/tasks/UpdateInformation.java
+ co.com.devco.booking.certificacion.tasks.UpdateInformation

@@ -1,4 +1,4 @@
-#author: Sara Victoria Padilla
+#author: SaraVictoriaPadilla
 
 Feature: Select Currency
   As a user, I need to change the corrency of the page booking

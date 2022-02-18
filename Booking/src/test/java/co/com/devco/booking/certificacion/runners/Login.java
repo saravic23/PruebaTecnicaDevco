@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/login.feature",
-        glue = "co.com.devco.booking.certificacion.stepdefinitions.login",
+        glue = "co.com.devco.booking.certificacion.stepdefinitions",
         snippets = SnippetType.CAMELCASE)
 public class Login {
 }
