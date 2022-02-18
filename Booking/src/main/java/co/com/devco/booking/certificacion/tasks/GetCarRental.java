@@ -3,6 +3,7 @@ import co.com.devco.booking.certificacion.models.CarData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
+import net.serenitybdd.screenplay.annotations.Subject;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import static co.com.devco.booking.certificacion.userinterfaces.CarRentalPage.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
@@ -16,6 +17,7 @@ public class GetCarRental implements Task {
         this.carData = carData;
     }
 
+    @Subject("rent car")
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(

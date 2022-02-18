@@ -8,7 +8,6 @@ public class AccomodationData {
     private String checkin;
     private String checkout;
 
-
     public AccomodationData(String destiny, String filter, String checkin, String checkout) {
         this.destiny = destiny;
         this.filter = filter;

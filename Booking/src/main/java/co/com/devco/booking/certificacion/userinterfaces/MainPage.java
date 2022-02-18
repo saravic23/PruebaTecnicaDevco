@@ -18,12 +18,6 @@ public class MainPage {
     public static final Target CONFIRM_DESTINY=
             Target.the("confirm Destiny").located(By.xpath("//span[@class='search_hl_name']"));
 
-    public static final Target LANGUAGE =
-            Target.the("Language").located(By.xpath("//button[@data-modal-id='language-selection']"));
-
-    public static final Target LANGUAGE_ES =
-            Target.the("Language selected").locatedBy("//*[contains(text(),'{0}')]");
-
     public static final Target DATE_DEPARTURE =
             Target.the("Date of {0}").locatedBy("//td[@data-date='{0}']");
 

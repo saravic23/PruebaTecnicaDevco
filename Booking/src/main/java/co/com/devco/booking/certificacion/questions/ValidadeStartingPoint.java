@@ -6,10 +6,11 @@ import net.serenitybdd.screenplay.questions.Text;
 
 import static co.com.devco.booking.certificacion.userinterfaces.AttractionsPage.*;
 
-
 public class ValidadeStartingPoint implements Question {
+
     @Override
     public Object answeredBy(Actor actor) {
+
         return Text.of(STARTING_POINT).viewedBy(actor).asString();
 
     }

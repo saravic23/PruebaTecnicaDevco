@@ -1,17 +1,15 @@
 package co.com.devco.booking.certificacion.tasks;
 
 import co.com.devco.booking.certificacion.models.AttractionData;
-import co.com.devco.booking.certificacion.userinterfaces.AttractionsPage;
-import co.com.devco.booking.certificacion.userinterfaces.MainPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Hit;
-import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.actions.SendKeys;
-import org.openqa.selenium.Keys;
+import net.serenitybdd.screenplay.annotations.Subject;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.devco.booking.certificacion.userinterfaces.AttractionsPage.*;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class SeeAttractions implements Task {
 
@@ -21,13 +19,15 @@ public class SeeAttractions implements Task {
         this.attractionData = attractionData;
     }
 
+    @Subject("search attractions")
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(DESTINY_FOR_ATTRACTION),
                 SendKeys.of(attractionData.getDestiny()).into(DESTINY_FOR_ATTRACTION),
                 Click.on(BUTTON_SEARCH_ATTRACTION),
-                Click.on(TOUR));
+                Click.on(TOUR),
+                WaitUntil.the(STARTING_POINT, isVisible()));
 
     }
 

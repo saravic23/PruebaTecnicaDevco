@@ -1,32 +1,33 @@
 package co.com.devco.booking.certificacion.tasks;
 
-import co.com.devco.booking.certificacion.models.LoginData;
+import co.com.devco.booking.certificacion.models.UserData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.SendKeys;
-import co.com.devco.booking.certificacion.userinterfaces.MainPage;
+import net.serenitybdd.screenplay.annotations.Subject;
 
 import static co.com.devco.booking.certificacion.userinterfaces.LoginPage.*;
 
 public class Login implements Task {
-    private LoginData loginData;
+    private UserData userData;
 
-    public Login(LoginData recordData) {
-        this.loginData = recordData;
+    public Login(UserData recordData) {
+        this.userData = recordData;
     }
 
+    @Subject("user login")
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                        SendKeys.of(loginData.getEmail()).into(EMAIL),
+                        SendKeys.of(userData.getEmail()).into(EMAIL),
                         Click.on(CONTINUE_BUTTON),
-                        SendKeys.of(loginData.getPassword()).into(PASSWORD),
+                        SendKeys.of(userData.getPassword()).into(PASSWORD),
                         Click.on(LOGIN_BUTTON));
 
     }
 
-    public static Login inThePageWith(LoginData loginData) {
-        return new Login(loginData);
+    public static Login inThePageWith(UserData userData) {
+        return new Login(userData);
     }
 }

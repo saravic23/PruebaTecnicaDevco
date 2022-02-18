@@ -1,6 +1,5 @@
 package co.com.devco.booking.certificacion.tasks;
 
-
 import co.com.devco.booking.certificacion.models.AccomodationData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

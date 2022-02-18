@@ -8,7 +8,6 @@ public class AttractionData {
         this.destiny = destiny;
     }
 
-
     public String getDestiny() {
         return destiny;
     }

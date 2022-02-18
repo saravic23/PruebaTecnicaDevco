@@ -13,7 +13,6 @@ import org.hamcrest.Matchers;
 
 import java.util.List;
 
-import static co.com.devco.booking.certificacion.utils.constants.ErrorsConstants.ACCOMMODATION_ERROR;
 import static co.com.devco.booking.certificacion.utils.constants.ErrorsConstants.ATTRACTION_ERROR;
 import static co.com.devco.booking.certificacion.utils.constants.ProductConstants.ATTRACTIONS;
 import static net.serenitybdd.screenplay.GivenWhenThen.*;

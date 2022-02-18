@@ -1,6 +1,5 @@
 package co.com.devco.booking.certificacion.interactions;
 
-import co.com.devco.booking.certificacion.userinterfaces.MainPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;

@@ -1,26 +1,18 @@
-co/com/devco/booking/certificacion/runners/Login.java
- co.com.devco.booking.certificacion.runners.Login
+co/com/devco/booking/certificacion/runners/RentCarException.java
+ co.com.devco.booking.certificacion.runners.RentCarException
 co/com/devco/booking/certificacion/runners/SearchAccomodatios.java
  co.com.devco.booking.certificacion.runners.SearchAccomodatios
-co/com/devco/booking/certificacion/runners/BookAccomodation.java
- co.com.devco.booking.certificacion.runners.BookAccomodation
 co/com/devco/booking/certificacion/stepdefinitions/GeneralStepDefinitions.java
  co.com.devco.booking.certificacion.stepdefinitions.GeneralStepDefinitions
-co/com/devco/booking/certificacion/runners/GetCar.java
- co.com.devco.booking.certificacion.runners.GetCar
 co/com/devco/booking/certificacion/runners/Attractions.java
  co.com.devco.booking.certificacion.runners.Attractions
+co/com/devco/booking/certificacion/runners/User.java
+ co.com.devco.booking.certificacion.runners.User
 co/com/devco/booking/certificacion/stepdefinitions/AttractionsStepDefinitions.java
  co.com.devco.booking.certificacion.stepdefinitions.AttractionsStepDefinitions
-co/com/devco/booking/certificacion/runners/UploadPersonalData.java
- co.com.devco.booking.certificacion.runners.UploadPersonalData
-co/com/devco/booking/certificacion/stepdefinitions/GetCarStepDefinitios.java
- co.com.devco.booking.certificacion.stepdefinitions.GetCarStepDefinitios
-co/com/devco/booking/certificacion/stepdefinitions/UploadPersonalDataStepDefinitions.java
- co.com.devco.booking.certificacion.stepdefinitions.UploadPersonalDataStepDefinitions
-co/com/devco/booking/certificacion/stepdefinitions/LoginStepDefinitions.java
- co.com.devco.booking.certificacion.stepdefinitions.LoginStepDefinitions
-co/com/devco/booking/certificacion/stepdefinitions/BookAccomodationStepDefinitions.java
- co.com.devco.booking.certificacion.stepdefinitions.BookAccomodationStepDefinitions
+co/com/devco/booking/certificacion/stepdefinitions/RentCarStepDefinitios.java
+ co.com.devco.booking.certificacion.stepdefinitions.RentCarStepDefinitios
 co/com/devco/booking/certificacion/stepdefinitions/SearchAccomodationStepDefinitions.java
  co.com.devco.booking.certificacion.stepdefinitions.SearchAccomodationStepDefinitions
+co/com/devco/booking/certificacion/stepdefinitions/LoginStepDefinitions.java
+ co.com.devco.booking.certificacion.stepdefinitions.LoginStepDefinitions
