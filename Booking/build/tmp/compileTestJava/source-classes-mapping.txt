@@ -10,9 +10,13 @@ co/com/devco/booking/certificacion/runners/User.java
  co.com.devco.booking.certificacion.runners.User
 co/com/devco/booking/certificacion/stepdefinitions/AttractionsStepDefinitions.java
  co.com.devco.booking.certificacion.stepdefinitions.AttractionsStepDefinitions
+co/com/devco/booking/certificacion/runners/SearchFoodArticle.java
+ co.com.devco.booking.certificacion.runners.SearchFoodArticle
 co/com/devco/booking/certificacion/stepdefinitions/RentCarStepDefinitios.java
  co.com.devco.booking.certificacion.stepdefinitions.RentCarStepDefinitios
 co/com/devco/booking/certificacion/stepdefinitions/SearchAccomodationStepDefinitions.java
  co.com.devco.booking.certificacion.stepdefinitions.SearchAccomodationStepDefinitions
 co/com/devco/booking/certificacion/stepdefinitions/LoginStepDefinitions.java
  co.com.devco.booking.certificacion.stepdefinitions.LoginStepDefinitions
+co/com/devco/booking/certificacion/stepdefinitions/SearchFoodArticlesStepDefinitions.java
+ co.com.devco.booking.certificacion.stepdefinitions.SearchFoodArticlesStepDefinitions

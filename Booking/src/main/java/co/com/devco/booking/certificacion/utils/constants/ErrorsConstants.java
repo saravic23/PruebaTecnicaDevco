@@ -8,6 +8,7 @@ public class ErrorsConstants {
   public static final String RENT_CAR_ERROR = "Error when checking the car ";
   public static final String REGISTER_ERROR = "Error when try to create the user ";
   public static final String LOGIN_ERROR = "Error when try to sing in ";
+  public static final String ARTICLES_ERROR = "Error try to consult the articles";
 
   private ErrorsConstants() {
     throw new IllegalStateException("Utility class");
